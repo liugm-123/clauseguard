@@ -1,0 +1,16 @@
+{
+  "name": "clauseguard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "契约哨兵 ClauseGuard —— 签约前先过一遍的 AI 合同审查（React + TypeScript 前端 / Python 零依赖后端）",
+  "license": "MIT",
+  "scripts": {
+    "install:web": "npm --prefix web install",
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "typecheck": "npm --prefix web run typecheck",
+    "start": "python server/app.py",
+    "mcp": "python server/mcp_server.py",
+    "test": "python -m unittest discover -s server/tests -t server"
+  }
+}

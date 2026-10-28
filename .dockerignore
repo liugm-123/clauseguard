@@ -1,0 +1,11 @@
+node_modules
+web/node_modules
+web/dist
+__pycache__
+.env
+.env.*
+*.pyc
+.git
+.github
+docs
+*.zip

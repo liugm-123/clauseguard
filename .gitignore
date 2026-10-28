@@ -1,0 +1,33 @@
+﻿# ---------- 环境变量 / 密钥 ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+server/.env
+
+# ---------- Node / 前端 ----------
+node_modules/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 产出物 ----------
+docs/images/*.tmp.png
+*.zip
