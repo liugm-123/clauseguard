@@ -2,7 +2,7 @@
 
 > 签约前先过一遍的 AI 合同审查 —— 不是「帮你读合同」，而是「在签字前告诉你哪一条会让你赔钱」。
 
-[![CI](https://github.com/<your-name>/clauseguard/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
+[![CI](https://github.com/liugm-123/clauseguard/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
 [![Frontend](https://img.shields.io/badge/frontend-React%2018%20%2B%20TypeScript%20%2B%20Vite-5b8cff)](./web)
 [![Backend](https://img.shields.io/badge/backend-Python%203.10%2B%20%E9%9B%B6%E4%BE%9D%E8%B5%96-4ecb8f)](./server)
 [![Tests](https://img.shields.io/badge/tests-55%20passed-4ecb8f)](./server/tests)
@@ -162,7 +162,7 @@ flowchart LR
 ### 方式一：生产模式（推荐，单进程）
 
 ```bash
-git clone https://github.com/<your-name>/clauseguard.git
+git clone https://github.com/liugm-123/clauseguard.git
 cd clauseguard
 
 # 1. 配置环境变量（不配也能跑，会降级为规则引擎）
